@@ -1,0 +1,81 @@
+body{
+  background-color:black;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 100;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  /* font-size: 40px; */
+  font-weight: 100;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  /* line-height: 70%; */
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+#main{
+  margin-left: 25px;
+}
+
+
+.menu-item div{
+
+    /* padding-left: 25px; */
+    left: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+        position: relative;
+
+}
+
+.menu-item{
+  height: 25px;
+  width: 200px;
+  border:.5px solid #FFF;
+  border-radius: 2px;
+  background-color:#000;
+}
+
+.menu-text{
+  /* background-color: red; */
+  position: absolute;
+}
+
+.menu-back{
+  background-color:green;
+  height:25px;
+  width:50px;
+  float:left;
+}
+
+.menu-item:hover .menu-back{
+  color:#fff;
+  left: 200px;
+  padding-left: -20px;
+}
+
+/* #name{
+  border-bottom-right-radius:50px;
+  display: inline-block;
+  border-color: white;
+  border-width: 10px;
+  border-style: solid;
+  background-color:gray;
+  padding-bottom: -50px;
+  padding-right: 25px; */
+
+}
